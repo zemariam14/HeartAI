@@ -28,7 +28,7 @@ HeartAI is a machine learning-based heart disease risk predictor with an interac
 
 ## Live App
 
-Visit the deployed app: [https://heartai.streamlit.app](https://heartai.streamlit.app)
+Visit the deployed app: [https://heartai.streamlit.app](https://heartai1.streamlit.app)
 
 ---
 
@@ -131,7 +131,6 @@ The app expects a backend endpoint at:
 POST http://localhost:8000/api/predict
 ```
 
-To deploy publicly, the backend must be hosted on a server accessible by Streamlit Cloud (e.g., Fly.io, Render, or Heroku).
 
 ---
 
