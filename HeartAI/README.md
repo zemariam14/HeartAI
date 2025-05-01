@@ -79,8 +79,8 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 # Install backend dependencies if requirements is needed to be installed again
 pip install -r requirements.txt
 
-# Train the model
-python train/train_model.py
+# Train the model (seperate terminal)
+python3 train/train_model.py
 
 # Start the FastAPI server
 uvicorn app.main:app --reload
